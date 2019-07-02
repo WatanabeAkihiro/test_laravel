@@ -72,8 +72,50 @@
         </div>
     </nav>
 
-    @yield('content')
-
+    <!-- @yield('content') -->
+<div class="container">
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">name</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="name">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Youtube</label>
+            <input type="url" class="form-control" id="exampleInputEmail1" placeholder="Youtube">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Twitter</label>
+            <input type="url" class="form-control" id="exampleInputEmail1" placeholder="Twitter">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">instagram</label>
+            <input type="url" class="form-control" id="exampleInputEmail1" placeholder="instagram">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Qiita</label>
+            <input type="url" class="form-control" id="exampleInputEmail1" placeholder="Qiita">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputFile">File input</label>
+            <input type="file" id="exampleInputFile">
+            <p class="help-block">Example block-level help text here.</p>
+        </div>
+        <div class="checkbox">
+            <label>
+            <input type="checkbox"> Check me out
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+    </form>
+</div>
     <!-- JavaScripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js" integrity="sha384-I6F5OKECLVtK/BL+8iSLDEHowSAfUo76ZL9+kGAgTRdiByINKJaqTPH/QVNS1VDb" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
